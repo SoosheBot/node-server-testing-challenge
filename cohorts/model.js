@@ -1,8 +1,9 @@
-const db = require("../data/connection");
+const db = require("../data/connection.js");
+
 module.exports = {
-    all,
-}
+  all,
+};
 
 function all() {
-    return db("cohorts");
+  return db("cohorts");
 }
